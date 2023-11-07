@@ -10,15 +10,11 @@ class CircleTestCase(unittest.TestCase):
         self.assertEqual(area('string'), 54) # FAIL
 
 
-
-
     def test_perimeter(self):
         self.assertEqual(perimeter(3), 18.84955592153876)
         self.assertEqual(perimeter(5), 31.41592653589793)
         self.assertEqual(perimeter(10), 62) # FAIL
         self.assertEqual(area('string'), 'fail') # FAIL
-
-
 
 
 def area(r):

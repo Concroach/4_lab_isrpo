@@ -9,14 +9,11 @@ class TriangleTestCase(unittest.TestCase):
         self.assertEqual(area(2, 1, 8), 90) # FAIL
 
 
-
     def test_perimeter(self):
         self.assertEqual(perimeter(3, 4, 5), 12)
         self.assertEqual(perimeter(10.5, 6, 8), 24.5)
         self.assertEqual(perimeter(2, 1, 8), 90) # FAIL
         self.assertEqual(perimeter('string', 8), 20) # FAIL
-
-
 
 
 def area(a, h):

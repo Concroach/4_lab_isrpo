@@ -9,13 +9,11 @@ class RectangleTestCase(unittest.TestCase):
         self.assertEqual(area(1), 0) # FAIL
 
 
-
     def test_perimeter(self):
         self.assertEqual(perimeter(5, 5), 20)
         self.assertEqual(perimeter(1, 9), 20)
         self.assertEqual(perimeter(0, 9), 123456) # FAIL
         self.assertEqual(perimeter(1, 'string'), 7) # FAIL
-
 
 
 def area(a, b):

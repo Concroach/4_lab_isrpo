@@ -49,8 +49,6 @@ class CircleTestCase(unittest.TestCase):
         self.assertEqual(area('string'), 54) # FAIL
 
 
-
-
     def test_perimeter(self):
         self.assertEqual(perimeter(3), 18.84955592153876)
         self.assertEqual(perimeter(5), 31.41592653589793)
@@ -79,7 +77,6 @@ class RectangleTestCase(unittest.TestCase):
         self.assertEqual(area(1), 0) # FAIL
 
 
-
     def test_perimeter(self):
         self.assertEqual(perimeter(5, 5), 20)
         self.assertEqual(perimeter(1, 9), 20)
@@ -106,7 +103,6 @@ class TriangleTestCase(unittest.TestCase):
         self.assertEqual(area(5, 7), 17.5)
         self.assertEqual(area(10, 9), 2332) # FAIL
         self.assertEqual(area(2, 1, 8), 90) # FAIL
-
 
 
     def test_perimeter(self):
