@@ -29,8 +29,8 @@ jobs:
         python -m unittest square.py
     - name: unit test
       run: |
-        python -m unittest triangle.py
-		
+        python -m unittest triangle.py  # Правильный отступ здесь
+
   linux_build:
 
     runs-on: ubuntu-latest
